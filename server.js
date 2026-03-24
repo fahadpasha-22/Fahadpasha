@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-const MONGO_URI = "mongodb+srv:Fahadpasha:<db_password>@cluster0.5d2der4.mongodb.net/?appName=Cluster0
+const MONGO_URI = "mongodb+srv:Fahadpasha:<db_password>@cluster0.5d2der4.mongodb.net/?appName=Cluster0"
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
